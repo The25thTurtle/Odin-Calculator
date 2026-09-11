@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 450px;
+    width: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: gray;
+    border-radius: 4px;
+}
+
+.pad {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    border: 2px solid black;
+    height: 310px;
+    width: 250px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: lightgray;
+}
+
+#results {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 50px;
+    font-size: 250%;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: white;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+}
