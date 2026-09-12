@@ -87,8 +87,8 @@ const btnOP = document.querySelectorAll(".operators").forEach(btnOP => {
 
 const btnEqual = document.querySelector(".equal").addEventListener("click", () => {
     if (num2 !== "" && justCalculated !== true) {
-        let results1 = parseInt(num1);
-        let results2 = parseInt(num2);
+        let results1 = parseFloat(num1);
+        let results2 = parseFloat(num2);
         let getOperator = operator;
         num1 = operate(results1, results2, getOperator);
         num2 = "";
