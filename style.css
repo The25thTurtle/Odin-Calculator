@@ -7,7 +7,8 @@
     padding: 20px;
     margin: 20px auto;
     background-color: gray;
-    border-radius: 4px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black;
 }
 
 .pad {
@@ -21,6 +22,8 @@
     padding: 10px;
     margin: 20px auto;
     background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black;
 }
 
 #results {
@@ -32,12 +35,31 @@
     border: 2px solid black;
     margin: 10px;
     background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black;
+    overflow: hidden;
 }
 
 button {
     width: 50px;
     height: 50px;
-    border-radius: 4px;
+    border-radius: 10px;
+    border: 2px solid black;
     cursor: pointer;
     background-color: white;
+    font-size: 150%;
+}
+
+button:hover {
+    background-color: grey;
+    color: white;
+}
+
+.clear {
+    width: 200px;
+}
+
+.clear:hover{
+    background-color: red;
+    color: white;
 }
